@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/chosen.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/chosen.jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+        <script src="js/home.js"></script>
+    </head>
+    <body>
+
+     <div class="row" style="padding-top: 31px;width: 94%;margin-left: 41px;">
+          <div class="col-4" style="margin-left: 173px;">
+            <select class="form-control" id='countrylist'>  </select>
+        </div>
+        <div class="col-3" style=" display:flex">
+            <input type="checkbox" id='all' name="all" value="Selecct all countries" class="form-control" style="width: 37px;">
+            <label style="margin-left: 10px; margin-top: 5px;">Select all countries</label>
+        </div>
+        <div class="col-2">
+         <button class="btn btn-info" id="search"  style="width:129px;">Search</button>
+        </div>
+    </div>
+   
+    <div class="row" style="display:none;padding-top: 78px;" id='allbox'>
+       <div class="col-4 box" id='boxorange'>
+         <h1>Cases</h1>
+         <p id='cases'></p>
+       </div>
+       <div class="col-4 box" id='boxred'> 
+         <h1>Deaths</h1>
+         <p id='deaths'></p>
+       </div>
+       <div class="col-4 box" id='boxgreen'>
+        <h1>Recovered</h1>
+        <p id='recv'></p>
+       </div>
+    </div>
+
+    <div class="row" style="display:none;padding-top: 67px;" id='singlecountry'>
+        <table style="width:94%;margin-left: 46px;" id='cnty'>
+            <thead>
+            <tr>
+              <th>Country</th>
+              <th >Cases</th>
+              <th>TodayCases</th>
+              <th>Deaths</th>
+              <th>TodayDeaths</th>
+              <th>Recovered</th>
+              <th>Active</th>
+              <th>Critical</th>
+              <th>Cases Per 1 Million</th>
+              <th>Deaths Per 1 Million</th>
+              <th>Total Tests</th>
+              <th>Tests Per 1 Million</th>
+            </tr>
+        </thead>
+            <tbody>
+            
+          </tbody>
+          </table>
+    </div>
+    <div class="row">
+        <div class="col-12">
+     <img src="images/stayhome.png" style="margin-left: 36%;width: 30%;"/>
+    </div>
+    </div>
+
+
+   </body>
+ </html> 

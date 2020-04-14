@@ -1,0 +1,39 @@
+.box {
+height: 290px;
+width: 50px;
+
+}
+
+#boxorange{
+    background-color: orange;
+    font-size: 51px;
+}
+#boxred{
+    background-color: red;
+    font-size: 51px;
+}
+#boxgreen{
+    background-color: green;
+    font-size: 51px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .select2-container .select2-selection--single {
+      height: 40px;
+  }
